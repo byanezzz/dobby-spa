@@ -5860,6 +5860,17 @@ button.close {
   background-color: #F4F4F4;
   padding-top: 3em;
   padding-bottom: 3em; }
+  .seccion_tres h3 {
+    color: #DC6131;
+    padding-bottom: 1em; }
+  .seccion_tres ul {
+    padding-left: 0; }
+    .seccion_tres ul li {
+      list-style: none;
+      line-height: 2em; }
+      .seccion_tres ul li span {
+        color: #956E5B;
+        margin-right: 1em; }
 
 .seccion_cuatro {
   background-color: #4E3B3C;
@@ -5872,5 +5883,17 @@ footer {
   padding-top: 3em;
   padding-bottom: 3em;
   color: #E6E5B2; }
+  footer .fa-quote-left {
+    color: #DC6131;
+    padding-right: 1em;
+    margin-bottom: 1em; }
+  footer h4 {
+    font-weight: bold;
+    padding-bottom: 1em; }
+  footer address {
+    line-height: 2em; }
+    footer address #email {
+      color: #DC6131;
+      margin-bottom: 1em; }
 
 /*# sourceMappingURL=main.css.map */

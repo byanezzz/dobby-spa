@@ -59,6 +59,24 @@
   background-color: $background-seccion_tres;
   padding-top: $padding-bottom;
   padding-bottom: $padding-bottom;
+  h3 {
+    color: $color-orange;
+    padding-bottom: $p-top;
+  }
+  .img_tres {
+    height: 60em !important;
+  }
+  ul {
+    padding-left: 0;
+    li {
+      list-style: none;
+      line-height: 2em;
+      span {
+        color: #956E5B;
+        margin-right: $p-top;
+      }
+    }
+  }
 }
 
 .seccion_cuatro {
@@ -73,4 +91,20 @@ footer {
   padding-top: $padding-bottom;
   padding-bottom: $padding-bottom;
   color: $background-seccion_dos;
+  .fa-quote-left {
+    color: $color-orange;
+    padding-right: $p-top;
+    margin-bottom: $p-top;
+  }
+  h4 {
+    font-weight: $font-weight;
+    padding-bottom: $p-top;
+  }
+  address {
+    line-height: 2em;
+    #email {
+      color: $color-orange;
+      margin-bottom: $p-top;
+    }
+  }
 }
