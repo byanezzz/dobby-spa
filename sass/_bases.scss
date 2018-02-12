@@ -1,0 +1,76 @@
+.navbar-default {
+  background-color: $footer;
+  .navbar-center {
+    margin-left: 35%;
+    li {
+      margin-right: 1em;
+      a {
+        color: $background-seccion_dos !important;
+        font-weight: $font-weight;
+      }
+    }
+  }
+}
+
+.circle-rrss {
+  @include radius(100%, #E4845A, 7px);
+  width: 8em;
+  height: 8em;
+  background-color: $background-seccion_dos;
+  img {
+    display: inline-block;
+    margin-left: -0.2em;
+    margin-top: -0.5em;
+  }
+}
+
+.circle {
+  @include radius(100%, $circle, 10px);
+}
+
+.boxRadius {
+  border-radius: $border-radius;
+}
+
+.seccion_dos {
+  background-color: $background-seccion_dos;
+  border-top: $footer;
+  border-top-style: solid;
+  padding-bottom: $padding-bottom;
+  .container {
+    margin-top: -5em;
+    h4 {
+      font-weight: $font-weight;
+      padding-top: $p-top;
+      padding-bottom: $p-top;
+    }
+    p {
+      padding-bottom: $p-top*2;
+    }
+    a {
+      color: $footer;
+      margin-left: 5em;
+      background-color: $circle;
+    }
+  }
+}
+
+.seccion_tres {
+  background-color: $background-seccion_tres;
+  padding-top: $padding-bottom;
+  padding-bottom: $padding-bottom;
+}
+
+.seccion_cuatro {
+  background-color: $background-seccion_cuatro;
+  padding-top: $padding-bottom;
+  padding-bottom: $padding-bottom;
+  color: $background-seccion_dos;
+}
+
+footer {
+  background-color: $footer;
+  padding-top: $padding-bottom;
+  padding-bottom: $padding-bottom;
+  color: $background-seccion_dos;
+}
